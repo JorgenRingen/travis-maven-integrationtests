@@ -4,4 +4,4 @@ jdk:
   - oraclejdk8
 
 script:
-  ./mvnw clean install failsafe:integration-tests failsafe:verify
+  ./mvnw clean install failsafe:integration-test failsafe:verify
